@@ -123,7 +123,7 @@ if [ -d /etc/profile.d ]; then
   unset i
 fi
 
-for i in ~/.zshrc.d/*.zsh; do
+for i in ~/.zshrc.d/*.zsh(N); do
   if [ -r $i ]; then
     . $i
   fi
