@@ -1,3 +1,0 @@
-{{- if ne .chezmoi.hostname "work" }}
-.zshrc.d/jj.zsh
-{{- end }}
