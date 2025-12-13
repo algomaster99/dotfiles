@@ -132,11 +132,6 @@ done
 # To activate git commit signing with TKey
 #export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/tkey-ssh-agent/sock
 
-# jj autocompletion
-autoload -U compinit
-compinit
-source <(jj util completion zsh)
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
