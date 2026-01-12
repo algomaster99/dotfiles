@@ -1,0 +1,5 @@
+{{ if eq .chezmoi.hostname "work" -}}
+#!/bin/bash
+# Install sdkman
+curl -s "https://get.sdkman.io" | bash
+{{ end -}}
